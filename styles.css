@@ -1,0 +1,107 @@
+body {
+  text-align: center;
+  background-color: #011F3F;
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  5%;
+  color: #FEF2BF;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn{
+  height:200px;
+  width:200px;
+  border-radius:20%;
+  border:10px solid black;
+  display:inline-block;
+  margin:25px;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+  position:relative;
+}
+.red::after{
+  content:"";
+  background-image:url("https://png.pngtree.com/png-vector/20230831/ourmid/pngtree-lion-face-animal-cartoon-png-image_9197805.png");
+  background-size:cover;
+  position:absolute;
+  z-index:1;
+  opacity:0.9;
+  top:0px;
+  bottom:0px;
+  right:0px;
+  left:0px;
+}
+
+.green {
+  background-color:green;
+  position:relative;
+}
+.green::after {
+  content:"";
+  background-image:url("https://www.pngplay.com/wp-content/uploads/12/Snail-PNG-HD-Photos.png");
+  background-size:cover;
+  position:absolute;
+  z-index:1;
+  top:0px;
+  bottom:0px;
+  right:0px;
+  left:0px;
+  opacity:0.7;
+  border-radius:20%;
+}
+.blue {
+  background-color: blue;
+  position:relative;
+}
+.blue::after{
+  content:"";
+  background-image:url("https://www.pngall.com/wp-content/uploads/2016/03/Butterfly-PNG-5.png");
+  background-size:cover;
+  position:absolute;
+  opacity:0.8;
+  border-radius:20%;
+  top:0px;
+  bottom:0px;
+  right:0px;
+  left:0px;
+  z-index:1;
+}
+
+.yellow {
+  background-color: yellow;
+  position:relative;
+}
+.yellow::after{
+  content:"";
+  background-image:url("http://pluspng.com/img-png/flower-png-dahlia-flower-png-transparent-image-1644.png");
+  background-size:cover;
+  position:absolute;
+  z-index:1;
+  top:0px;
+  bottom:0px;
+  right:0px;
+  left:0px;
+  border-radius:20%;
+  opacity:0.8;
+}
+
+.pressed {
+  box-shadow: 0 0 30px white;
+  background-color:grey;
+}
